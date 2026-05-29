@@ -3,6 +3,7 @@
 
 ENV_PATH="/opt/miniforge3/envs/PureComputePython313GPU"
 export PATH="$ENV_PATH/bin:$PATH"
+export CUDA_PATH="$ENV_PATH"
 export SSL_CERT_FILE="$ENV_PATH/lib/python3.13/site-packages/certifi/cacert.pem"
 export REQUESTS_CA_BUNDLE="$SSL_CERT_FILE"
 
