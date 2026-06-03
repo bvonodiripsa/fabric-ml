@@ -5,3 +5,6 @@
 h5/
 cufile.log
 miniconda3-PureComputeGPU.tar.gz
+
+# cuCIM sample images (too large for git)
+cucim_medical_imaging/input/
